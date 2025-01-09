@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Static files generated at runtime
+*.next/cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Typescript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm
+
+# Ignore coverage reports
+coverage/
+
+# Ignore local development files
+*.local
+*.env.local
