@@ -19,7 +19,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto mt-[80px] md:mt-[100px] lg:mt-[80px] px-4 py-12">
       <h1 className="text-4xl font-bold mb-8 text-center text-blue-600">Contact Us</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

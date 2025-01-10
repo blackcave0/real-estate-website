@@ -159,7 +159,7 @@ const allPropertiesData
 ]
 export default function AllProperties() {
   return (
-    <section className="mt-12 md:mt-16 container mx-auto px-4 md:px-8 lg:px-12 mb-12">
+    <section className="mt-12 mt-[120px] md:mt-[100px] lg:mt-[120px] container mx-auto px-4 md:px-8 lg:px-12 mb-12">
       <h2 className="text-3xl font-bold mb-6 text-blue-600">All Properties</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {allPropertiesData
