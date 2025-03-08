@@ -132,13 +132,19 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Desktop Buttons */}
+            {/* Desktop Buttons */}
           <div className="hidden md:flex space-x-4">
-            <Button variant="outline">Login</Button>
-            <Button>Add Listing</Button>
+            <Link href="/login"  >
+              <Button variant='outline'>
+                Login
+              </Button>
+            </Link>
+
+            <Link href='/register'>
+              <Button>Register</Button>
+            </Link>
           </div>
         </div>
       </div>
     </header>
   )}
-
